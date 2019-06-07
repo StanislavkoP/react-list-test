@@ -99,7 +99,6 @@ function App() {
 	return (
 
 		<div className="App">
-
 			{
 				lists
 					? lists.map(list => (<List moveItemDown={moveItemDown} moveItemUp={moveItemUp} addSubList={addSubList} removeSubList={removeSubList} removeItemFromList={removeItemFromList} addNewItemToList={addNewItemToList} key={list.id} list={list} />))

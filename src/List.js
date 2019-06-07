@@ -14,15 +14,14 @@ function List (props) {
     } = props;
     
     const [valueInput, onChangeInput] = useState('');
-    // const [stateList, updateList]
 
     return (
         <React.Fragment>
             <ul>
                 {   
                     list.items.map((item, index) => (
-                        <li key={item.value}>
-                            {item.value}
+                        <li key={ item.value }>
+                            { item.value }
                             {
                                 index === 0
                                 ? null
