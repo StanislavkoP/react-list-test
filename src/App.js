@@ -7,26 +7,32 @@ const initStateList = [
 			id: 0,
 			items: [
 				{
+					id: `f${(~~(Math.random()*1e8)).toString(16)}`,
 					value: 'Item 1'
 				},
 				{
+					id: `f${(~~(Math.random()*1e8)).toString(16)}`,
 					value: 'Item 2',
 					subList: {
 						id: 1,
 						items: [
 							{
+								id: `f${(~~(Math.random()*1e8)).toString(16)}`,
 								value: 'Item 1'
 							},
 							{
+								id: `f${(~~(Math.random()*1e8)).toString(16)}`,
 								value: 'Item 2'
 							},
 							{
+								id: `f${(~~(Math.random()*1e8)).toString(16)}`,
 								value: 'Item 3'
 							},
 						],
 					}
 				},
 				{
+					id: `f${(~~(Math.random()*1e8)).toString(16)}`,
 					value: 'Item 3'
 				},
 			]

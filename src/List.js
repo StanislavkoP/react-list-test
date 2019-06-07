@@ -20,7 +20,7 @@ function List (props) {
             <ul>
                 {   
                     list.items.map((item, index) => (
-                        <li key={ item.value }>
+                        <li key={ item.id }>
                             { item.value }
                             {
                                 index === 0
